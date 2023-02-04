@@ -1,0 +1,38 @@
+.user-routes-container {
+  width: 75%;
+  max-width: 1280px;
+  margin: 1rem 0rem 2rem 0rem;
+  font-size: clamp(0.8rem, 0.1rem + 1.5vw , 1rem);
+  font-weight: 600;
+
+
+  ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    display: inline;
+    float: right;
+    padding-left: 1rem;
+
+  }
+
+  li a {
+    color: var(--color-1);
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: var(--color-accent);
+  }
+}
+
+@media screen and (max-width:940px) {
+  .user-routes-container {
+    margin: 1rem 0rem;
+  }
+}

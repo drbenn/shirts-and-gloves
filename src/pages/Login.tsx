@@ -1,3 +1,16 @@
+import './login.scss';
+
 export function Login() {
-  return <h1>Login</h1>
+  return (
+    <>
+  
+
+  <div className='login-container'>
+    <h1>Login</h1>
+    <input type="text" />
+    <input type="text" />
+
+  </div>
+  </>
+  )
 }
