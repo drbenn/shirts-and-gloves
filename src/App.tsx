@@ -8,13 +8,15 @@ import { Register } from './pages/Register'
 import { Sale } from './pages/Sale'
 import { Women } from './pages/Women'
 import { Cart } from './pages/cart'
+import { ShoppingCartProvider } from './context/ShoppingCartContext'
 
-// https://www.youtube.com/watch?v=lATafp15HWA
+// https://www.youtube.com/watch?v=lATafp15HWA - Context/Shopping Cart Tutorial
+// https://courses.webdevsimplified.com/react-hooks-simplified - React Hooks Simplified Tutorial
 function App() {
 
   // the <> and </> are called a fragment "to render everything to the screen"
   return (
-    <> 
+    <ShoppingCartProvider>
       <Navbar></Navbar>
       <div className='routes-container'>
         <Routes>
@@ -27,8 +29,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />   
         </Routes>
       </div>
-
-    </>
+    </ShoppingCartProvider>
   )
 }
 

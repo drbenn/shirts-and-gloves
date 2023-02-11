@@ -6,6 +6,7 @@
   font-weight: 600;
 
 
+
   ul {
     list-style-type:none;
     margin: 0;
@@ -17,6 +18,7 @@
     display: inline;
     float: right;
     padding-left: 1rem;
+    padding-top: 1rem;
 
   }
 
@@ -29,7 +31,44 @@
   li a:hover {
     color: var(--color-accent);
   }
+
+  button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 1.6rem; 
+    height: 1.8rem;
+    position: relative;
+    transform: translate(0rem, -0.2rem);
+  }
+
+  .svg-container {
+    width: 1.5rem; 
+    height: 1.5rem;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .shopping-cart-number {
+    border-radius: 10rem;
+    background-color: var(--color-1);
+    padding: 0.4rem;
+    color: white;
+    font-size: 0.7rem;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    transform: translate(-0.2rem, -1rem);
+  }
 }
+
 
 @media screen and (max-width:940px) {
   .user-routes-container {

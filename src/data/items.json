@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "One",
+    "price": 20,
+    "imgUrl": "./imgs/01m.jpg",
+    "category": "men"
+  },
+  {
+    "id": 2,
+    "name": "Two",
+    "price": 15,
+    "imgUrl": "./imgs/02m.jpg",
+    "category": "men"
+  },
+  {
+    "id": 3,
+    "name": "Three",
+    "price": 11,
+    "imgUrl": "./imgs/03m.jpg",
+    "category": "men"
+  },
+  {
+    "id": 4,
+    "name": "Four",
+    "price": 2,
+    "imgUrl": "./imgs/04m.jpg",
+    "category": "men"
+  }
+]
